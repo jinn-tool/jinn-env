@@ -32,3 +32,8 @@ module.exports = function (jinn, cb) {
 
   copy()
 }
+
+module.exports.command = {
+  flags: '-E, --env',
+  description: 'Add env support via the envoodoo module'
+}
